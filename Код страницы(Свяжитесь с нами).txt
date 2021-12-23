@@ -1,0 +1,199 @@
+HTML5:
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Свяжитесь с нами.css" />
+    <style>
+        body 
+        {
+            background: url(Инфо.jpg);
+        }
+    </style>
+</head>
+<body>
+    <header class="mainH">
+        <hgroup>
+            <h1>Некрополис</h1>
+            <h2>Место для эпичной надписи</h2>
+        </hgroup>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Главная Страница.html">В город</a></li>
+            <li><a href="#">Существа</a></li>
+            <li><a href="Код страницы(Свяжитесь с нами).txt">Код страницы</a></li>
+            <bi><a href="Свяжитесь с нами.html">Свяжитесь с нами/Инфо</a></bi>
+        </ul>
+    </nav>
+    <section>
+        <header>
+            <h1>Свяжитесь с нами</h1>
+            <h2>Ваши данные</h2>
+        </header>
+        <form>
+            <label for="cust_email">E-mail:</label>
+            <input type="email" id="cust_email" placeholder="Введите ваш email" autofocus="autofocus"><br />
+            <label for="cust_site">URL вашего сайта:</label>
+            <input type="url" id="cust_site" placeholder="Введите URL вашего сайта"><br />
+            <label for="cust_phone">Тел.:</label>
+            <input type="tel" id="cust_phone" placeholder="Введите телефонный номер"><br />
+            <label for="cust_birthday">Дата вашего рождения:</label>
+            <input type="datetime" id="cust_birthday"><br />
+            <label for="cust_priority">Важность для вас:</label>
+            <input type="range" min="1" max="10" value="5" id="cust_priority"><br /><br />
+            <input type="submit" value="Связаться">
+        </form>
+    </section>
+    <txt>
+        <b>Типо Важная Информация.</b>
+        <a>
+            Сайт создан исключительно на правах беспомощности от Django. Вы можете брать отсюда любые материалы(ведь их всёравно нет), а так же любую информацию(которая бесполезна). Администрация в лице меня желает вам всего самого лучшего и прочей ерунды.
+            А вообще, мне нужно было заполнить пустоту в кноце страницы, поэтому любой бред, написанный здесь не должен восприниматься серьёзно. Да, чёрт возьми, это мой сайт, поэтому имею полное право писать здесь сюбой бред никак не связанный с сайтом. А,
+            тут ещё форма есть сверху, по которой вы можете с нами связаться, но она не работает, так что вы вообще хотели от меня? Сайт запускается с диска, да вообще изначально должен был быть выполненен в PyCharm с использованием Django. Но я в нём ничего не понимаю,
+            поэтому сайт сделан(ну, как, "сделан") на основе HTML5 и CSS3. И нечего придираться, работает и уже хорошо.
+        </a> 
+    </txt>
+    <footer>
+        <p>
+            &copy; 2018. Ангилопов Андрей. Никакие права не защищены. Абсолютно все материалы находятся в свободном доступе.
+            Я нифига не воровал. С меня взятки-гладки.
+        </p>
+    </footer>
+</body>
+</html>
+
+CSS3:
+header.mainH 
+{
+    margin-left: 590px;
+    max-width: 452px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 5px 0 #AA4400;
+    -moz-box-shadow: 0 3px 5px 0 #AA4400;
+    box-shadow: 0 3px 5px 0 #AA4400;
+    padding: 5px;
+    text-align: center;
+}
+
+
+header h1 
+{
+    color: #ADFF2F;
+    font-size: 36px;
+    margin: 0px;
+}
+
+header h2
+{
+    font-size: 18px;
+    margin: 0px;
+    color: #888;
+    font-style: italic;
+}
+
+nav ul
+{
+    margin-left: 590px;
+    max-width: 456px;
+    list-style: none;
+    padding: 0px;
+    display: block;
+    clear: right;
+    background-color: #666;
+    padding-left: 4px;
+    height: 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+nav ul li 
+{
+    display: inline;
+    padding: 0px 20px 5px 10px;
+    height: 24px;
+    border-right: 1px solid #ccc;
+}
+
+nav ul li a
+{
+    color: #EFD3D3;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a1
+{
+    margin-left: 580px;
+    color: #EFD3D3;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ nav ul bi a
+{
+    margin-left: 10px;
+    color: #EFD3D3;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+footer p
+{
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-top: 220px;
+    
+}
+
+section form
+{
+    max-width: 490px;
+    border: 1px solid #887;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 10px 10px 5px #887;
+    -webkit-box-shadow: 10px 10px 5px #887;
+    box-shadow: 10px 10px 5px #887;
+    background-color: #eed;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+section label 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section input
+{
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+txt a
+{ 
+    display:block; 
+    margin-top: 20px;
+    color: #ADFF2F;
+    font-size: 25px;
+}
+
+txt b
+{
+    display: block;
+    margin-left: 500px;
+    margin-top: 100px;
+    color: #ADFF2F;
+    font-size: 50px;
+}
